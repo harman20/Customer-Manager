@@ -1,8 +1,7 @@
 # Angular, NodeJS, MongoDB Customers Service
 
 This project provides a look at getting started using Angular Http functionality and how it can be used
-to call a Node.js RESTful service. The code is for the Integrating Angular with Node.js RESTful Services
-available on Pluralsight at https://www.pluralsight.com/courses/angular-nodejs-restful-services.
+to call a Node.js RESTful service. The code is for the Integrating Angular with Node.js.A very basic application comprises of different customer details entered through a user. The features include a customer’s name, Email, Address, Cities, etc. Several API has been integrated into the project such as state API.  Technologies Used: Back-end: MongoDB, ExpressJs, AngularJs and NodeJs
 
 ## Angular Concepts Covered
 
@@ -43,22 +42,5 @@ available on Pluralsight at https://www.pluralsight.com/courses/angular-nodejs-r
 1. Browse to http://localhost:3000
 
 
-## Running the Application with Docker
-
-1. Install Node.js (10.16 or higher) and Docker for Mac/Windows or Docker Toolbox - https://www.docker.com/products/overview
-
-1. Open `config/config.development.json` and change the host from `localhost` to `mongodb`
-
-1. Run `npm install`
-
-1. Run `ng build --watch`
-
-1. Open another command window and navigate to this application's root folder in the command window
-
-1. Run `docker-compose build` to build the images
-
-1. Run `docker-compose up` to run the containers
-
-1. Navigate to http://localhost:3000
 
 
